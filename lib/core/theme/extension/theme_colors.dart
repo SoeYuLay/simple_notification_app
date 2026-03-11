@@ -11,7 +11,7 @@ class NotiColors extends ThemeExtension<NotiColors> {
   });
 
   @override
-  NotiColors copyWith({Color? textPrimary, Color? background ,Color? readBackground, Color? unreadBackground}) {
+  NotiColors copyWith({Color? textPrimary, Color? datePrimary}) {
     return NotiColors(
       textPrimary: textPrimary ?? this.textPrimary,
       datePrimary: datePrimary ?? this.datePrimary
