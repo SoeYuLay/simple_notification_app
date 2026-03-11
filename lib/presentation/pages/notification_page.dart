@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:simple_notification_app/data/data_source/notification_api.dart';
 import 'package:simple_notification_app/core/theme/theme_getter.dart';
-import 'package:simple_notification_app/data/repositaries/notification_repo.dart';
+import 'package:simple_notification_app/data/repositories/notification_repo.dart';
 import 'package:simple_notification_app/presentation/bloc/notification_bloc.dart';
 import 'package:simple_notification_app/presentation/bloc/notification_event.dart';
 import 'package:simple_notification_app/presentation/bloc/notification_state.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:simple_notification_app/data/repositaries/notification_repo.dart';
+import 'package:simple_notification_app/data/repositories/notification_repo.dart';
 
 import 'notification_event.dart';
 import 'notification_state.dart';
